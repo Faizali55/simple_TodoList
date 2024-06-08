@@ -41,8 +41,5 @@ while (myloop) {
             console.log(`${index + 1}.${item}`);
         });
     }
-    if (!userInput.addmore) {
-        console.log("thank you");
-    }
     myloop = addmore;
 }
